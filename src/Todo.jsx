@@ -26,6 +26,7 @@ function Todo() {
             </form>
             <ul>{renderItems}</ul>
             <button onClick={() => dispatch(clearTodo())}>Clear</button>
+            <button onClick={() => dispatch(removeTodo())}>Remove</button>
         </div>
     );
 }
